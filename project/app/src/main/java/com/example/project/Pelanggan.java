@@ -40,6 +40,7 @@ public class Pelanggan extends AppCompatActivity {
         setContentView(R.layout.activity_pelanggan);
 
         Toolbar toolbar = findViewById(R.id.plg);
+        this.setTitle("Pelanggan");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

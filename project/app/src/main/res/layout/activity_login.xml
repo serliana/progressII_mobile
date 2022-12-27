@@ -28,7 +28,7 @@
         android:id="@+id/slogan_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/antic"
+        android:fontFamily="@font/abrilfatface"
         android:text="Masuk untuk melanjutkan"
         android:textSize="18sp"
         android:transitionName="logo_desc"/>
@@ -46,7 +46,8 @@
             android:transitionName="username_tran">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -59,6 +60,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/antic"
                 android:inputType="textPassword"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,6 +69,7 @@
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:text="Lupa Password?"
+            android:fontFamily="@font/gabriela"
             android:layout_gravity="right"
             android:elevation="0dp"
             android:layout_margin="5dp"
@@ -76,8 +79,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Masuk"
+            android:fontFamily="@font/bungee"
             android:background="@color/orange"
-            android:textColor="#fff"
+            android:textColor="@color/black"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:transitionName="button_tran"/>
@@ -87,6 +91,7 @@
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:text="Pengguna Baru? DAFTAR"
+            android:fontFamily="@font/gabriela"
             android:layout_gravity="right"
             android:elevation="0dp"
             android:layout_margin="5dp"

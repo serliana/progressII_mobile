@@ -32,6 +32,7 @@ public class Montir extends AppCompatActivity {
         setContentView(R.layout.activity_montir);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        this.setTitle("Montir");
         //getSupportActionBar().setTitle("Montir");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

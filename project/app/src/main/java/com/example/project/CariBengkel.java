@@ -2,6 +2,7 @@ package com.example.project;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.widget.Adapter;
@@ -22,6 +23,12 @@ public class CariBengkel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cari_bengkel);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        this.setTitle("Cari Bengkel");
+        //getSupportActionBar().setTitle("Cari Bengkel");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         searchView = findViewById(R.id.search_bar);
         listView = findViewById(R.id.list_view);
